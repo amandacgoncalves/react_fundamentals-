@@ -1,19 +1,7 @@
-import './index.css'
-import ReactDOM from 'react-dom'
-import React from 'react'
-import First from './components/basic/First'
-import WParams from './components/basic/WParams'
-import Fragment from './components/basic/WParams'
+import "./index.css";
+import ReactDOM from "react-dom";
+import React from "react";
 
-ReactDOM.render(
-    <div>
-    <First></First>
-    <WParams 
-    title="Situação do Aluno" 
-    aluno="Pedro" 
-    nota={9.3} 
-    />
-    <Fragment />
-    </div>, 
-    document.getElementById('root')
-);
+import App from "./components/basic/App";
+
+ReactDOM.render(<App />, document.getElementById("root"));
