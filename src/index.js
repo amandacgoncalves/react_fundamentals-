@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import React from 'react'
 import First from './components/basic/First'
 import WParams from './components/basic/WParams'
+import Fragment from './components/basic/WParams'
 
 ReactDOM.render(
     <div>
@@ -12,6 +13,7 @@ ReactDOM.render(
     aluno="Pedro" 
     nota={9.3} 
     />
+    <Fragment />
     </div>, 
     document.getElementById('root')
 );
