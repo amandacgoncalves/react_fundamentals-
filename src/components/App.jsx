@@ -3,6 +3,8 @@ import React from "react";
 
 import Card from "./layout/Card";
 
+import IndiretaPai from "./comunicacao/IndiretaPai";
+import IndiretaFilho from "./comunicacao/IndiretaFilho";
 import DiretaPai from "./comunicacao/DiretaPai";
 import DiretaFilho from "./comunicacao/DiretaFilho";
 import UsuarioInfo from "./condicional/UsuarioInfo";
@@ -22,6 +24,10 @@ export default () => (
     <h1>Fundamentos React</h1>
 
     <div className="Cards">
+      <Card title="#10 -  Comunicação Indireta" color="#8BAD39">
+        <IndiretaPai></IndiretaPai>
+      </Card>
+
       <Card title="#09 -  Comunicação Direta" color="#59323C">
         <DiretaPai></DiretaPai>
       </Card>
